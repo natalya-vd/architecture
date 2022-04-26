@@ -1,0 +1,29 @@
+<nav class="nav">
+    <ul class="nav__list">
+        <li>
+            <a href="/">
+                Главная
+            </a>
+        </li>
+        <li>
+            <a href="/product/catalog">
+                Каталог
+            </a>
+        </li>
+        <li class="nav__basket">
+            <a href="/basket/basket">
+                Корзина <span class="nav__count" id="count">{{count is null ? 0 : count}}</span>
+            </a>
+        </li>
+        <li>
+            <a href="/auth/login">
+                Авторизация
+            </a>
+        </li>
+        <li>
+            <a href="/admin/admin">
+                Админка
+            </a>
+        </li>
+    </ul>
+</nav>
